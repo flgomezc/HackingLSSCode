@@ -1,4 +1,6 @@
-# README
+# Hacking Xiao-Dong Li's LSS Code
+
+```
   ____       _           _____ _        _      _              
  |  _ \     | |         / ____| |      | |    | |             
  | |_) | ___| |_ __ _  | (___ | | _____| | ___| |_ ___  _ __  
@@ -6,8 +8,10 @@
  | |_) |  __/ || (_| |  ____) |   <  __/ |  __/ || (_) | | | |
  |____/ \___|\__\__,_| |_____/|_|\_\___|_|\___|\__\___/|_| |_|
                                                               
+```
 
-This is a hacked version of the repo at github xiaodongli1986/LSS_Code
+This is a hacked version of the repo at
+[https://github.com/xiaodongli1986/LSS_Code](https://github.com/xiaodongli1986/LSS_Code)
 to calculate only the Beta-Skeleton of a given set of points.
 
 Original version requires the "ifort" compiler (Intel - Fortran compiler).
