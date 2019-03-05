@@ -53,10 +53,12 @@ save, exit and load the new path by typing:
 # How to run:
 
 Usage:
-./BSK_calc -input intpufilename -output outputfilname -beta beta -printinfo printinfo -numNNB numNNB 
+
+	./BSK_calc -input intpufilename -output outputfilname -beta beta -printinfo printinfo -numNNB numNNB 
 
 Example:
-./bin/LSS_BSK_calc -input FC_N20000_REAL.cat -output test01 -beta 1.0 -printinfo True -numNNB 300
+
+	./bin/LSS_BSK_calc -input FC_N20000_REAL.cat -output test01 -beta 1.0 -printinfo True -numNNB 300
 
 	input:	Mandatory. The input file to read and do calculations.
 	output:	Mandatory. The output file to save the graph.
@@ -65,8 +67,10 @@ Example:
 	numNNB: Mandatory. The number of neighbours to perform the search of the Beta-Neighbours.
 
 Xiao Dong Li suggets:	
-	beta 	  numNNB
-	1.0	  100		I found 300 nummNNB gives best accuracy.
-	3.0	  25
-	5.0	  20
-	10.0	  15
+
+|beta   | numNNB |  Observations                           |
+|------:|-------:|-----------------------------------------|
+|1.0	|   100	 |I found 300 nummNNB gives best accuracy. |
+|3.0	|    25  |                                         |
+|5.0	|    20  |                                         |
+|10.0	|    15  |                                         |
